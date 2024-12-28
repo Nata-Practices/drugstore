@@ -19,7 +19,7 @@
 
 1. Клонируй репозиторий:
    ```bash
-   git clone <URL вашего репозитория>
+   git clone https://github.com/Nata-Practices/drugstore.git
    ```
 
 2. Открой проект в Android Studio:
