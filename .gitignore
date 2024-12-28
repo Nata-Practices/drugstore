@@ -1,0 +1,53 @@
+# Kotlin
+*.iml
+.gradle/
+.idea/
+.classpath
+.project
+.settings/
+.idea/**
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Android Studio
+.gradle/
+.idea/
+.build/
+local.properties
+.DS_Store
+*.apk
+*.ap_
+*.hprof
+
+# Gradle
+**/build/
+.gradle/
+gradle-app.setting
+
+# Cache files
+.cxx/
+.externalNativeBuild/
+**/captures/
+**/.externalNativeBuild/
+
+# Keystore files
+*.keystore
+*.jks
+
+# Google Services JSON
+google-services.json
+
+# Files for IDE
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
