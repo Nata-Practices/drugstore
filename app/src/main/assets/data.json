@@ -1,0 +1,82 @@
+[
+  {
+    "nameLekarstva": "Ибупрофен",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №2",
+    "vidLekarstva": "Обезболивающее",
+    "formaLekarstva": "Таблетки",
+    "obQemLekarstva": "200 мг",
+    "stoimostLekarstva": "100 руб."
+  },
+  {
+    "nameLekarstva": "Амоксициллин",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №3",
+    "vidLekarstva": "Антибиотик",
+    "formaLekarstva": "Капсулы",
+    "obQemLekarstva": "500 мг",
+    "stoimostLekarstva": "200 руб."
+  },
+  {
+    "nameLekarstva": "Диклофенак",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №4",
+    "vidLekarstva": "Противовоспалительное",
+    "formaLekarstva": "Гель",
+    "obQemLekarstva": "50 г",
+    "stoimostLekarstva": "150 руб."
+  },
+  {
+    "nameLekarstva": "Цетиризин",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №5",
+    "vidLekarstva": "Антигистаминное",
+    "formaLekarstva": "Таблетки",
+    "obQemLekarstva": "10 мг",
+    "stoimostLekarstva": "120 руб."
+  },
+  {
+    "nameLekarstva": "Аскорбиновая кислота",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №6",
+    "vidLekarstva": "Витамины и минералы",
+    "formaLekarstva": "Таблетки",
+    "obQemLekarstva": "100 мг",
+    "stoimostLekarstva": "80 руб."
+  },
+  {
+    "nameLekarstva": "Ацикловир",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №7",
+    "vidLekarstva": "Антивирусное",
+    "formaLekarstva": "Крем",
+    "obQemLekarstva": "5 г",
+    "stoimostLekarstva": "130 руб."
+  },
+  {
+    "nameLekarstva": "Флуконазол",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №8",
+    "vidLekarstva": "Противогрибковое",
+    "formaLekarstva": "Капсулы",
+    "obQemLekarstva": "150 мг",
+    "stoimostLekarstva": "90 руб."
+  },
+  {
+    "nameLekarstva": "Парацетамол",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №1",
+    "vidLekarstva": "Антипиретик",
+    "formaLekarstva": "Таблетки",
+    "obQemLekarstva": "500 мг",
+    "stoimostLekarstva": "50 руб."
+  },
+  {
+    "nameLekarstva": "Лизиноприл",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №9",
+    "vidLekarstva": "Антигипертензивное",
+    "formaLekarstva": "Таблетки",
+    "obQemLekarstva": "10 мг",
+    "stoimostLekarstva": "170 руб."
+  },
+  {
+    "nameLekarstva": "Флуоксетин",
+    "proizvoditelLekarstva": "Фармацевтическая Компания №10",
+    "vidLekarstva": "Антидепрессант",
+    "formaLekarstva": "Капсулы",
+    "obQemLekarstva": "20 мг",
+    "stoimostLekarstva": "300 руб."
+  }
+]

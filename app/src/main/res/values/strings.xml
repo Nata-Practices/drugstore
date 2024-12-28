@@ -3,4 +3,15 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="item_price">Стоимость:</string>
+    <string name="item_capacity">Объём лекарства:</string>
+    <string name="item_form">Форма лекарства:</string>
+    <string name="item_type">Вид лекарства:</string>
+    <string name="item_creator">Производитель:</string>
+    <string name="item_creator_icon">Иконка производителя</string>
+    <string name="item_name">Название:</string>
+    <string name="item_name_icon">Иконка лекарства</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_add">Добавить</string>
 </resources>
