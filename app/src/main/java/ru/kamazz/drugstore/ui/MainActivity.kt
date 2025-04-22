@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         val uniqueVidLekarstva = medicine1.map { it.vidLekarstva }.distinct().toMutableList()
         uniqueVidLekarstva.add(0, "Все")
 
-        val sortOptions = arrayOf("Дешевле", "Дороже", "Производитель")
+        val sortOptions = arrayOf("Дешевле", "Дороже", "Производитель", "Обратный порядок")
 
         val typeAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, uniqueVidLekarstva)
         binding.s.adapter = typeAdapter
@@ -99,6 +99,28 @@ class MainActivity : AppCompatActivity() {
                 }
             }).show()
         }
+        // Пример использования
+//        infinitely {
+//            adapter.notifyDataSetChanged()
+//            Thread.sleep(1000)
+//        }
+    }
+
+    // Функция высшего порядка
+    private fun infinitely(loopBody: () -> Unit) {
+        while (true) {
+            loopBody()
+        }
+    }
+
+    // Лямбда-расширение для преобразования стоимости
+    private fun applyTransformation(adapter: MyAdapter) {
+        val transform: String.(Int) -> String = { multiplier ->
+            "${this.replace(" руб.", "").toInt() * multiplier} руб."
+        }
+
+        // Ниже пример использования
+        // medicine1.firstOrNull()?.stoimostLekarstva?.transform(2)
     }
 
     private fun applyTransform(adapter: MyAdapter) {

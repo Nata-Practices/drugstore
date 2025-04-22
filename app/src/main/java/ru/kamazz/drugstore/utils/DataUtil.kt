@@ -15,6 +15,11 @@ object DataUtil {
 
     private const val FILE_NAME = "data.json" // Название файла, содержащего данные о лекарствах
 
+    // Бинарный оператор +=
+    operator fun plusAssign(context: Context) {
+        loadData(context)
+    }
+
     /**
      * Загружает данные из JSON-файла.
      * Если файл отсутствует, копирует его из папки assets.

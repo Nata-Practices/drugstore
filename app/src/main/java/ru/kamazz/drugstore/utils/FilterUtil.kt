@@ -7,6 +7,14 @@ import ru.kamazz.drugstore.models.AptekaItem
  */
 object FilterUtil {
 
+    // Унарный оператор для инвертирования списка
+    operator fun List<AptekaItem>.unaryMinus() = this.reversed()
+
+    // Расширяющий метод для сортировки по цене
+    fun List<AptekaItem>.sortByPrice() = this.sortedBy {
+        it.stoimostLekarstva.replace(" руб.", "").toIntOrNull() ?: 0
+    }
+
     /**
      * Фильтрует и сортирует список лекарств в соответствии с указанными параметрами.
      *
@@ -37,7 +45,14 @@ object FilterUtil {
             "Производитель" -> filteredList.sortedBy {
                 it.proizvoditelLekarstva.replace("Фармацевтическая Компания №", "").toIntOrNull()
             }
+            "Обратный порядок" -> -filteredList
             else -> filteredList
         }
     }
+
+    // Инфиксный метод для объединения списков
+    infix fun List<AptekaItem>.mergeWith(other: List<AptekaItem>) = this + other
+
+    // Инфиксный метод для проверки типа
+    infix fun List<AptekaItem>.containsType(type: String) = any { it.vidLekarstva == type }
 }
